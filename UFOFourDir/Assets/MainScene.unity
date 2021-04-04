@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 795aa9cad0e394f7d949430f901381d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  catcher: {fileID: 7144099823473792125}
   serialHandler: {fileID: 1731994296}
 --- !u!4 &42945192
 Transform:
@@ -6139,7 +6140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb8b6c72910cd4988986f24ab13662c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: /dev/cu.usbmodem1441201
+  portName: /dev/tty.usbmodem1441401
   baudRate: 9600
 --- !u!4 &1731994297
 Transform:
@@ -8391,25 +8392,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &7144099823473792125
-Animator:
-  serializedVersion: 3
+--- !u!114 &7144099823473792125
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7144099823473792124}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 429715de31943481b9818b8880bb70d4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695f05590b3034515b6977b5c787270e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7367788651906255998
 GameObject:
   m_ObjectHideFlags: 0

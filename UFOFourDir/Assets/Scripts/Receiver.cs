@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Receiver : MonoBehaviour
 {
+
+    [SerializeField] Catcher catcher;
+
     public SerialHandler serialHandler;
     void Start()
     {
@@ -23,10 +26,12 @@ public class Receiver : MonoBehaviour
         if(data.Length < 2) return;
 
         try {
+            catcher.GetParemeter(data);
             for(int i = 0; i < data.Length; i++) {
-                Debug.Log(data[i]);
+                // Debug.Log(data[i]);
             }
         }catch (System.Exception e) {
+            Debug.Log("undefined err");
             Debug.LogWarning(e.Message);
         }
     }

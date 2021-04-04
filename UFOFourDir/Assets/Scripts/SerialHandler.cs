@@ -6,14 +6,14 @@ using System.Threading;
 public class SerialHandler : MonoBehaviour
 {
     public delegate void SerialDataReceivedEventHandler(string message);
-    public event SerialDataReceivedEventHandler OnDataReceived;
+    public event SerialDataReceivedEventHandler OnDataReceived = delegate {};
 
     //ポート名
     //例
     //Linuxでは/dev/ttyUSB0
     //windowsではCOM1
     //Macでは/dev/tty.usbmodem1421など
-    public string portName = "/dev/cu.usbmodem1441201";
+    public string portName = "portName here";
     public int baudRate    = 9600;
 
     private SerialPort serialPort_;
@@ -47,6 +47,8 @@ public class SerialHandler : MonoBehaviour
          //または
          //serialPort_ = new SerialPort(portName, baudRate);
         serialPort_.Open();
+        serialPort_.ReadTimeout = 20;
+        serialPort_.NewLine = "\n";
 
         isRunning_ = true;
 
@@ -77,7 +79,7 @@ public class SerialHandler : MonoBehaviour
                 message_ = serialPort_.ReadLine();
                 isNewMessageReceived_ = true;
             } catch (System.Exception e) {
-                Debug.LogWarning(e.Message);
+                // Debug.LogWarning(e.Message);
             }
         }
     }
@@ -88,6 +90,7 @@ public class SerialHandler : MonoBehaviour
         try {
             serialPort_.Write(message);
         } catch (System.Exception e) {
+            Debug.Log("write err");
             Debug.LogWarning(e.Message);
         }
     }
