@@ -35,9 +35,11 @@ void loop() {
 bool checkButton(int pinNumber, bool isShining){
   if(digitalRead(pinNumber) == HIGH && !isShining) {
     Serial.println("button state became high");
+    Serial.print("\t");
     return true;
   }else if(digitalRead(pinNumber) == LOW && isShining) {
     Serial.println("button state became low");
+    Serial.print("\t");
     return true;
   }
   return false;

@@ -1,5 +1,5 @@
-const int TOP = 4;
-bool top = false;
+//const int TOP = 4;
+//bool top = false;
 
 const int BOTTOM = 2;
 bool bottom;
@@ -20,8 +20,8 @@ void loop() {
   bool _left = checkButton(LEFT, left);
   if(_left) left = !left;
 
-  bool _top = checkButton(TOP, top);
-  if(_top) top = !top;
+//  bool _top = checkButton(TOP, top);
+//  if(_top) top = !top;
 
   bool _right = checkButton(RIGHT, right);
   if(_right) right = !right;
