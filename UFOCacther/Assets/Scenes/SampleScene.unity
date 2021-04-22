@@ -1200,7 +1200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942554352}
   m_Layer: 0
-  m_Name: Gift
+  m_Name: Gifts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
