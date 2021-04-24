@@ -13,4 +13,14 @@ public class GameSceneController : SceneControllerBase
     {
 
     }
+
+    public override void _StartScene()
+    {
+
+    }
+
+    public override void _EndScene()
+    {
+
+    }
 }

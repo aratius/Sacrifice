@@ -1064,8 +1064,11 @@
      <Compile Include="Assets\PlayMaker\Actions\VideoClip\VideoClipGetFrameCount.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Camera\CutToCamera.cs" />
      <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerPreparedCompletedEvent.cs" />
-     <Compile Include="Assets\Scripts\Actions\SceneBaseAction.cs" />
      <Compile Include="Assets\Scripts\ActionRouter.cs" />
+     <Compile Include="Assets\Scripts\Actions\SceneAction.cs" />
+     <Compile Include="Assets\Scripts\Actions\SceneActionBase.cs" />
+     <Compile Include="Assets\Scripts\Scenes\HomeScene\HomeSceneAnimationController.cs" />
+     <Compile Include="Assets\Scripts\Scenes\HomeScene\HomeSceneController copy.cs" />
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\Materials\Wall.shader" />
      <None Include="Assets\PlayMaker\Templates\Readme.txt" />
