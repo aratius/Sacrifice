@@ -279,3 +279,249 @@ System memory in use after: 118.5 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1593.
 Total: 2.604911 ms (FindLiveObjects: 0.291023 ms CreateObjectMapping: 0.079120 ms MarkObjects: 2.147032 ms  DeleteObjects: 0.086172 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 1.874801 ms (FindLiveObjects: 0.317284 ms CreateObjectMapping: 0.061107 ms MarkObjects: 1.440408 ms  DeleteObjects: 0.054093 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1090.611746 seconds.
+  path: Assets/Scripts/Scenes
+  artifactKey: Guid(1c87d5233c0f04ef2aa0e08c1834afde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scenes using Guid(1c87d5233c0f04ef2aa0e08c1834afde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e80ba309d3336143475d4e59aab5987') in 0.004698 seconds
+  Import took 0.008481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.317816 seconds.
+  path: Assets/Scripts/Scenes/GameScene
+  artifactKey: Guid(ea21a81efe9bf4d94bea7ef1c7d7c4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scenes/GameScene using Guid(ea21a81efe9bf4d94bea7ef1c7d7c4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f64ed3f74db30f7ad2e729eb9d561c5') in 0.001744 seconds
+  Import took 0.005151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.153717 seconds.
+  path: Assets/Scripts/Scenes/GameScene/GameSceneAnimationController.cs
+  artifactKey: Guid(10e23f254146542d8a5c7496f92c4345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scenes/GameScene/GameSceneAnimationController.cs using Guid(10e23f254146542d8a5c7496f92c4345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1641191ada62a41dd780338daebb5b3e') in 0.005700 seconds
+  Import took 0.007876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.892927 seconds.
+  path: Assets/Scripts/Scenes/GameScene/GameSceneController.cs
+  artifactKey: Guid(502a0d5178ab4419e96109e71f6fc94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scenes/GameScene/GameSceneController.cs using Guid(502a0d5178ab4419e96109e71f6fc94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294e40b8c2331b1a90c4658ea786ab31') in 0.004063 seconds
+  Import took 0.006909 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.9 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 2.078280 ms (FindLiveObjects: 0.225086 ms CreateObjectMapping: 0.062063 ms MarkObjects: 1.735552 ms  DeleteObjects: 0.053061 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.268877 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23149838858da62b877115d9be75ebdb') in 0.006272 seconds
+  Import took 0.008064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003364 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23149838858da62b877115d9be75ebdb') in 0.007355 seconds
+  Import took 0.009993 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 1.461990 ms (FindLiveObjects: 0.181620 ms CreateObjectMapping: 0.040962 ms MarkObjects: 1.187690 ms  DeleteObjects: 0.050405 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.300065 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972e6b430744f223d115d77269ba397') in 0.005713 seconds
+  Import took 0.007993 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.3 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 1.714702 ms (FindLiveObjects: 0.223843 ms CreateObjectMapping: 0.050472 ms MarkObjects: 1.388367 ms  DeleteObjects: 0.050039 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1287.040784 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(0eb200f87605a4fce83bacdbc335277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ce233de799497840532fe809ccc05e') in 0.006822 seconds
+  Import took 0.009412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.412458 ms (FindLiveObjects: 0.144327 ms CreateObjectMapping: 0.038022 ms MarkObjects: 1.178070 ms  DeleteObjects: 0.051003 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.770670 ms (FindLiveObjects: 0.173403 ms CreateObjectMapping: 0.047076 ms MarkObjects: 1.490432 ms  DeleteObjects: 0.058720 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.3 MB.
+System memory in use after: 156.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2901.
+Total: 2.449783 ms (FindLiveObjects: 0.436449 ms CreateObjectMapping: 0.121736 ms MarkObjects: 1.821352 ms  DeleteObjects: 0.068028 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2281 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.7 MB.
+System memory in use after: 156.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2906.
+Total: 2.769028 ms (FindLiveObjects: 0.392133 ms CreateObjectMapping: 0.114111 ms MarkObjects: 2.194917 ms  DeleteObjects: 0.065535 ms)
+

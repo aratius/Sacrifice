@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rider.Editor", "Unity.Rider.Editor.csproj", "{4b4fde2b-073b-d5d1-bc9e-bd652ad71c2b}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{d75064a8-9827-7bfb-8724-a9f2134c8a58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,8 @@ Global
 		{1cf75214-3627-0277-fd61-593f36ea6759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4b4fde2b-073b-d5d1-bc9e-bd652ad71c2b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4b4fde2b-073b-d5d1-bc9e-bd652ad71c2b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d75064a8-9827-7bfb-8724-a9f2134c8a58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d75064a8-9827-7bfb-8724-a9f2134c8a58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

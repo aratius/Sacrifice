@@ -10,8 +10,21 @@ public class SceneControllerBase : SingletonMonoBehaviour<SceneControllerBase> {
     _Update();
   }
 
+  void StartScene() {
+
+  }
+
+  void EndScene() {
+
+  }
+
   // サブクラスでオーバーライド
   public virtual void _Start(){}
   // サブクラスでオーバーライド
   public virtual void _Update(){}
+  // サブクラスでオーバーライド
+  public virtual void _StartScene(){}
+  // サブクラスでオーバーライド
+  public virtual void _EndScene(){}
+
 }
