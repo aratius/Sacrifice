@@ -11,11 +11,11 @@ public class SceneControllerBase : SingletonMonoBehaviour<SceneControllerBase> {
   }
 
   void StartScene() {
-
+    _StartScene();
   }
 
   void EndScene() {
-
+    _EndScene();
   }
 
   // サブクラスでオーバーライド

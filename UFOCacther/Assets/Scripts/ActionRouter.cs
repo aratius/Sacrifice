@@ -12,6 +12,8 @@ public class ActionRouter {
   private ActionRouter (){
   }
 
-
+  internal void StartScene(string sceneKey) {
+    GameController.Instance.StartScene(sceneKey);
+  }
 
 }

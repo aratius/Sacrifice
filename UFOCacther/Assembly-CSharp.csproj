@@ -1068,7 +1068,7 @@
      <Compile Include="Assets\Scripts\Actions\SceneAction.cs" />
      <Compile Include="Assets\Scripts\Actions\SceneActionBase.cs" />
      <Compile Include="Assets\Scripts\Scenes\HomeScene\HomeSceneAnimationController.cs" />
-     <Compile Include="Assets\Scripts\Scenes\HomeScene\HomeSceneController copy.cs" />
+     <Compile Include="Assets\Scripts\Scenes\HomeScene\HomeSceneController.cs" />
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\Materials\Wall.shader" />
      <None Include="Assets\PlayMaker\Templates\Readme.txt" />

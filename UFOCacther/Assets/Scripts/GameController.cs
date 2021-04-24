@@ -18,4 +18,15 @@ public class GameController : SingletonMonoBehaviour<GameController>
     {
 
     }
+
+    internal void StartScene(string sceneKey) {
+        Debug.Log(sceneKey);
+    }
+
+
+    string HOME = "HOME";
+    string GAME = "GAME";
+    string RECEIVE = "RECEIVE";
+    string PREVIEW = "PREVIEW";
+
 }

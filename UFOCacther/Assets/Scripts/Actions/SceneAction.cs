@@ -5,6 +5,15 @@ namespace HutongGames.PlayMaker.Actions {
 
   public class SceneAction : SceneActionBase {
 
+    [RequiredField]
+    [UIHint(UIHint.Variable)]
+    public FsmString sceneKey;
+
+    public override void AfterOnEnter()
+    {
+      controller.StartScene(sceneKey.Value);
+    }
+
   }
 
 }
