@@ -751,7 +751,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 210
+        x: 386
         y: 180
         width: 100
         height: 32
@@ -795,11 +795,11 @@ MonoBehaviour:
           networkSync: 0
           value: HOME
         - useVariable: 1
-          name: HOME
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: HOME
+          value: 
         - useVariable: 1
           name: GAME
           tooltip: 
@@ -807,17 +807,17 @@ MonoBehaviour:
           networkSync: 0
           value: GAME
         - useVariable: 1
-          name: RECEIVE
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: RECEIVE
+          value: 
         - useVariable: 1
-          name: PREVIEW
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: PREVIEW
+          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -852,10 +852,10 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 353
-        y: 245.5
+        x: 665
+        y: 302.5
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -864,7 +864,16 @@ MonoBehaviour:
           name: RECEIVE
           isSystemEvent: 0
           isGlobal: 0
-        toState: PreviewScene
+        toState: ReceiveScene
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: HOME
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HomeScene
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -895,25 +904,25 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: GAME
-        - useVariable: 0
+        - useVariable: 1
+          name: HOME
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: HOME
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: RECEIVE
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 0
+          value: RECEIVE
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -953,14 +962,23 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 53
-        y: 247.5
+        x: 362
+        y: 448.5
         width: 112
-        height: 16
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: PREVIEW
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PreviewScene
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SceneAction
@@ -987,30 +1005,30 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: RECEIVE
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: PREVIEW
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: PREVIEW
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1045,19 +1063,28 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 198
-        y: 320.5
+        x: 61
+        y: 294.5
         width: 113
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: PREVIEW
+          name: GAME
           isSystemEvent: 0
           isGlobal: 0
-        toState: ReceiveScene
+        toState: GameScene
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: HOME
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HomeScene
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -1088,25 +1115,25 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: PREVIEW
-        - useVariable: 0
+        - useVariable: 1
+          name: HOME
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: HOME
+        - useVariable: 1
+          name: GAME
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: GAME
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -1146,7 +1173,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 210
+        x: 386
         y: 99.5
         width: 112
         height: 32
