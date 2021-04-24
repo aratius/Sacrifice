@@ -20,10 +20,10 @@ public class ActionRouter {
     UnityAction receiveEv,
     UnityAction previewEv
   ) {
-    GameController.Instance.HomeEv.AddListener(homeEv);
-    GameController.Instance.GameEv.AddListener(gameEv);
-    GameController.Instance.ReceiveEv.AddListener(receiveEv);
-    GameController.Instance.PreviewEv.AddListener(previewEv);
+    GameController.Instance.onHomeEv.AddListener(homeEv);
+    GameController.Instance.onGameEv.AddListener(gameEv);
+    GameController.Instance.onReceiveEv.AddListener(receiveEv);
+    GameController.Instance.onPreviewEv.AddListener(previewEv);
   }
 
   internal void StartScene(string sceneKey) {

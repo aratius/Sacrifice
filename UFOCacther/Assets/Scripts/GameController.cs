@@ -10,14 +10,17 @@ public class GameController : SingletonMonoBehaviour<GameController>
     [SerializeField] ReceiveSceneController receiveSceneController;
     [SerializeField] PreviewSceneController previewSceneController;
 
-    internal UnityEvent HomeEv = new UnityEvent();
-    internal UnityEvent GameEv = new UnityEvent();
-    internal UnityEvent ReceiveEv = new UnityEvent();
-    internal UnityEvent PreviewEv = new UnityEvent();
+    internal UnityEvent onHomeEv = new UnityEvent();
+    void onHome(){onHomeEv.Invoke();}
+    internal UnityEvent onGameEv = new UnityEvent();
+    void onGame(){onGameEv.Invoke();}
+    internal UnityEvent onReceiveEv = new UnityEvent();
+    void onReceive(){onReceiveEv.Invoke();}
+    internal UnityEvent onPreviewEv = new UnityEvent();
+    void onPreview(){onPreviewEv.Invoke();}
 
     void Start()
     {
-        homeSceneController.transitionSampleEvent.AddListener(()=>GameEv.Invoke());
     }
 
     void Update()
@@ -26,6 +29,9 @@ public class GameController : SingletonMonoBehaviour<GameController>
     }
 
     internal void StartScene(string sceneKey) {
+        // 一通りイベントの登録
+        homeSceneController.transitionSampleEvent.AddListener(onGame);
+
         if(sceneKey != CURRENT_SCENE_KEY) {
             CURRENT_SCENE_KEY = sceneKey;
 
@@ -51,6 +57,9 @@ public class GameController : SingletonMonoBehaviour<GameController>
         }else if(CURRENT_SCENE_KEY == PREVIEW) {
             previewSceneController.EndScene();
         }
+
+        // 一通りイベントの解除
+        homeSceneController.transitionSampleEvent.RemoveListener(onHome);
     }
 
     internal void SubmitEvents() {
