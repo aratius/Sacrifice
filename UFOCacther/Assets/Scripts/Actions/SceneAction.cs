@@ -9,25 +9,9 @@ namespace HutongGames.PlayMaker.Actions {
     [UIHint(UIHint.Variable)]
     public FsmString sceneKey;
 
-    [UIHint(UIHint.Variable)]
-    public FsmString HOME;
-    [UIHint(UIHint.Variable)]
-    public FsmString GAME;
-    [UIHint(UIHint.Variable)]
-    public FsmString RECEIVE;
-    [UIHint(UIHint.Variable)]
-    public FsmString PREVIEW;
-
-
     public override void AfterOnEnter()
     {
       controller.StartScene(sceneKey.Value);
-      controller.SubmitEvents(
-        () => DoFsmEvent(HOME.Value),
-        () => DoFsmEvent(GAME.Value),
-        () => DoFsmEvent(RECEIVE.Value),
-        () => DoFsmEvent(PREVIEW.Value)
-      );
     }
 
     public override void BeforeOnExit()

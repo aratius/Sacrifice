@@ -776,7 +776,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: af60af00
+        actionHashCodes: 62789800
         unityObjectParams:
         - {fileID: 1572661267}
         fsmGameObjectParams: []
@@ -794,30 +794,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: HOME
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: GAME
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: GAME
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -831,22 +807,18 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 01
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000001200000012000000120000001b00000001000000
+        paramDataType: 120000001b00000001000000
         paramName:
         - sceneKey
-        - HOME
-        - GAME
-        - RECEIVE
-        - PREVIEW
         - gameObject
         - deleteOnExit
-        paramDataPos: 00000000010000000200000003000000040000000000000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000001000000
     - name: GameScene
       description: 
       colorIndex: 0
@@ -886,7 +858,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: af60af00
+        actionHashCodes: 62789800
         unityObjectParams:
         - {fileID: 394888585}
         fsmGameObjectParams: []
@@ -904,30 +876,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: GAME
-        - useVariable: 1
-          name: HOME
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: HOME
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: RECEIVE
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: RECEIVE
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -941,22 +889,18 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 01
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000001200000012000000120000001b00000001000000
+        paramDataType: 120000001b00000001000000
         paramName:
         - sceneKey
-        - HOME
-        - GAME
-        - RECEIVE
-        - PREVIEW
         - gameObject
         - deleteOnExit
-        paramDataPos: 00000000010000000200000003000000040000000000000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000001000000
     - name: ReceiveScene
       description: 
       colorIndex: 0
@@ -987,7 +931,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: af60af00
+        actionHashCodes: 62789800
         unityObjectParams:
         - {fileID: 1095048936}
         fsmGameObjectParams: []
@@ -1005,30 +949,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: RECEIVE
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: PREVIEW
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: PREVIEW
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1042,22 +962,18 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 01
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000001200000012000000120000001b00000001000000
+        paramDataType: 120000001b00000001000000
         paramName:
         - sceneKey
-        - HOME
-        - GAME
-        - RECEIVE
-        - PREVIEW
         - gameObject
         - deleteOnExit
-        paramDataPos: 00000000010000000200000003000000040000000000000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000001000000
     - name: PreviewScene
       description: 
       colorIndex: 0
@@ -1097,7 +1013,7 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: af60af00
+        actionHashCodes: 62789800
         unityObjectParams:
         - {fileID: 1367316179}
         fsmGameObjectParams: []
@@ -1115,30 +1031,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: PREVIEW
-        - useVariable: 1
-          name: HOME
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: HOME
-        - useVariable: 1
-          name: GAME
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: GAME
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1152,22 +1044,18 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 01
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000001200000012000000120000001b00000001000000
+        paramDataType: 120000001b00000001000000
         paramName:
         - sceneKey
-        - HOME
-        - GAME
-        - RECEIVE
-        - PREVIEW
         - gameObject
         - deleteOnExit
-        paramDataPos: 00000000010000000200000003000000040000000000000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000001000000
     - name: EventsSubmit
       description: 
       colorIndex: 0

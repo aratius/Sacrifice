@@ -20,6 +20,7 @@ public class SceneControllerBase : SingletonMonoBehaviour<SceneControllerBase> {
   }
 
   internal void EndScene() {
+    Debug.Log("end scene");
     _EndScene();
   }
 

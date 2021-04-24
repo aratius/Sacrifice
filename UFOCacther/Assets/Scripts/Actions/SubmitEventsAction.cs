@@ -5,16 +5,12 @@ namespace HutongGames.PlayMaker.Actions {
 
   public class SubmitEventsAction : SceneActionBase {
 
-    [RequiredField]
     [UIHint(UIHint.Variable)]
     public FsmString HOME;
-    [RequiredField]
     [UIHint(UIHint.Variable)]
     public FsmString GAME;
-    [RequiredField]
     [UIHint(UIHint.Variable)]
     public FsmString RECEIVE;
-    [RequiredField]
     [UIHint(UIHint.Variable)]
     public FsmString PREVIEW;
 
