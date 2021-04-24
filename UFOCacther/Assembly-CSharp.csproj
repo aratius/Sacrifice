@@ -40,8 +40,8 @@
      <Compile Include="Assets\Scripts\Common\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\Scripts\Scenes\PreviewSceneController.cs" />
      <Compile Include="Assets\Scripts\Scenes\ReceiveSceneController.cs" />
-     <Compile Include="Assets\Scripts\Scenes\GameSceneController.cs" />
      <Compile Include="Assets\Scripts\Scenes\SceneControllerBase.cs" />
+     <Compile Include="Assets\Scripts\Scenes\GameScene\GameSceneController.cs" />
      <None Include="Assets\Materials\Wall.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
