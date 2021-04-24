@@ -38,10 +38,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Common\SingletonMonoBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Scenes\PreviewSceneController.cs" />
-     <Compile Include="Assets\Scripts\Scenes\ReceiveSceneController.cs" />
      <Compile Include="Assets\Scripts\Scenes\SceneControllerBase.cs" />
      <Compile Include="Assets\Scripts\Scenes\GameScene\GameSceneController.cs" />
+     <Compile Include="Assets\Scripts\Scenes\PreviewScene\PreviewSceneController.cs" />
+     <Compile Include="Assets\Scripts\Scenes\AnimationControllerBase.cs" />
+     <Compile Include="Assets\Scripts\Scenes\ReceiveScene\ReceiveSceneController.cs" />
      <None Include="Assets\Materials\Wall.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
