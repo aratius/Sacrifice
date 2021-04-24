@@ -14,6 +14,11 @@ namespace HutongGames.PlayMaker.Actions {
       controller.StartScene(sceneKey.Value);
     }
 
+    public override void BeforeOnExit()
+    {
+      controller.EndScene();
+    }
+
   }
 
 }

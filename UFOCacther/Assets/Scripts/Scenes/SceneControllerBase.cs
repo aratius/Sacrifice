@@ -1,7 +1,11 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 // SceneControllerのスーパークラス
 public class SceneControllerBase : SingletonMonoBehaviour<SceneControllerBase> {
+
+  internal UnityEvent transitionSampleEvent = new UnityEvent();
+
   void Start() {
     _Start();
   }
@@ -10,11 +14,12 @@ public class SceneControllerBase : SingletonMonoBehaviour<SceneControllerBase> {
     _Update();
   }
 
-  void StartScene() {
+  internal void StartScene() {
+    transitionSampleEvent.Invoke();
     _StartScene();
   }
 
-  void EndScene() {
+  internal void EndScene() {
     _EndScene();
   }
 
