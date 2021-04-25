@@ -31,8 +31,8 @@ public class GameController : SingletonMonoBehaviour<GameController>
     internal void StartScene(string sceneKey) {
         // 一通りイベントの登録
         homeSceneController.transitionSampleEvent.AddListener(onGame);
-        gameSceneController.transitionSampleEvent.AddListener(onReceive);
-        receiveSceneController.transitionSampleEvent.AddListener(onPreview);
+        // gameSceneController.transitionSampleEvent.AddListener(onReceive);
+        // receiveSceneController.transitionSampleEvent.AddListener(onPreview);
         // previewSceneController.transitionSampleEvent.AddListener(onHome);
 
         if(sceneKey != CURRENT_SCENE_KEY) {
